@@ -1,0 +1,86 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.contenedorTarjeta{
+  display: flex;
+  gap: 15px;
+  background-color: rgb(0, 238, 238);
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+
+.tarjeta{
+  background-color: rgb(33, 163, 195);
+  margin-top: 30px;
+  border-radius: 12px;
+  color: black;
+  width: 30%;
+  padding: 0;
+  
+
+  
+}
+.tarjeta:hover{
+  background-color: rgb(221, 255, 0);
+
+}
+*/
+.tarjeta .img{
+  width: 95%;
+
+  aspect-ratio: 4/3;
+}
+
+.tarjeta img{
+  width: 100%;
+
+  aspect-ratio: 4/3;
+
+  filter: drop-shadow(12px 12px 4px rgba(93, 17, 17, 0.5)); 
+}
+
+
+
+
+
